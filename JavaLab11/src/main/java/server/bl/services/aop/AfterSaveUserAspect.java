@@ -1,12 +1,10 @@
-package server.business_logic.services.aop;
+package server.bl.services.aop;
 
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 import server.addition.email.services.MailConfirmationService;
 import server.entities.dto.UserDataDto;
@@ -22,7 +20,7 @@ public class AfterSaveUserAspect {
     @Autowired
     Tokenizer tokenizer;
 
-    @AfterReturning(value = "execution(* server.business_logic.services.UserService.saveUser(..))", returning = "result")
+    @AfterReturning(value = "execution(* server.bl.services.UserService.saveUser(..))", returning = "result")
     public void sendEmail(JoinPoint point, Object result) {
 
         Boolean booleanResult = (Boolean) result;

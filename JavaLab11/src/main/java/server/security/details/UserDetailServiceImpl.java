@@ -5,8 +5,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import server.business_logic.repositories.UserRepository;
-import server.business_logic.services.UserService;
+import server.bl.repositories.UserRepository;
 import server.entities.model.UserDataModel;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package server.business_logic.repositories;
+package server.bl.repositories;
 
 import java.util.List;
 import java.util.Optional;

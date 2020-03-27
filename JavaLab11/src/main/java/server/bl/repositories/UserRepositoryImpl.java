@@ -1,4 +1,4 @@
-package server.business_logic.repositories;
+package server.bl.repositories;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;

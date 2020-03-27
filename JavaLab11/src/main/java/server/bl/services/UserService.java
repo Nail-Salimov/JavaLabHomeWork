@@ -1,7 +1,6 @@
-package server.business_logic.services;
+package server.bl.services;
 
 import server.entities.dto.UserDataDto;
-import server.entities.model.UserDataModel;
 
 import java.util.Optional;
 

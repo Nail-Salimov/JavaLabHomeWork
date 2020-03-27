@@ -1,9 +1,9 @@
-package server.business_logic.services;
+package server.bl.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
-import server.business_logic.repositories.UserRepository;
+import server.bl.repositories.UserRepository;
 import server.entities.dto.UserDataDto;
 import server.entities.model.Role;
 import server.entities.model.State;

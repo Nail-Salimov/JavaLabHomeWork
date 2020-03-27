@@ -6,9 +6,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import server.business_logic.services.UserService;
+import server.bl.services.UserService;
 import server.entities.dto.UserDataDto;
-import server.entities.model.UserDataModel;
 
 @Controller
 public class SignUpController {
