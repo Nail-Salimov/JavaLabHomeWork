@@ -13,7 +13,6 @@ hs_err_pid*
 .settings/
 .project
 .classpath
-*.properties
 .springBeans
 **/target/
 /commit.txt
